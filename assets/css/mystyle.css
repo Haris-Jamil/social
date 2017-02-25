@@ -1,0 +1,39 @@
+body{
+	background-color:  #18121E;
+	font-size: 15px;
+}	
+#loginHead{
+	padding: 20px;
+
+}
+#loginHead label{
+	color: white;
+}
+#logo{
+	color: white;
+	margin: 0px;
+	font-family: 'Lobster';
+	font-size: 50px;
+}
+.innerDiv{
+	display: inline-block;
+	text-align: left;
+}
+
+
+#loginCenter{
+	padding: 80px;
+}
+#loginCenter .innerDiv{
+	background-color: #233237;
+	padding: 50px;
+}
+
+.error{
+	color: red;
+	font-weight: bold;
+}
+
+*:focus{
+	outline: none;
+}
